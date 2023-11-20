@@ -6,15 +6,17 @@
 </head>
 <body>
    <div class="container d-flex flex-column justify-content-center">
+    <jsp:include page="index.jsp" />
+       <h1>Galerie</h1>
        <div class="row">
            <div class="col-md-4">
-               <img src="image1.jpg" class="img-fluid">
+               <img src="https://media.licdn.com/dms/image/D5603AQHY8ey2ONPvYQ/profile-displayphoto-shrink_200_200/0/1676675021014?e=1706140800&v=beta&t=rJeR3ZZP5H-hCAQ3VuFJGGnuKOUKY2iZWoMn2RcYb18" class="img-fluid">
            </div>
            <div class="col-md-4">
-               <img src="image2.jpg" class="img-fluid">
+               <img href="" src="./images/photo_1_2023-11-20_16-05-09.jpg" class="img-fluid">
            </div>
            <div class="col-md-4">
-               <img src="image3.jpg" class="img-fluid">
+               <img src="./images/photo_2_2023-11-20_16-05-09.jpg" class="img-fluid">
            </div>
        </div>
    </div>

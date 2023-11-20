@@ -6,6 +6,6 @@
 <body class="container d-flex flex-column justify-content-center w-50 p-3">
     <jsp:include page="index.jsp" />
     <h1 class="p-3">Bienvenue sur notre site web!</h1>
-    <p class="p-3">Nous sommes ravis de vous avoir ici. Découvrez nos projets et faite un don!</p>
+    <p class="p-3">Nous sommes ravis de vous avoir ici. Découvrez nos projets et faites un don!</p>
 </body>
 </html>

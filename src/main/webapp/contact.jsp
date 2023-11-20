@@ -3,9 +3,8 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 </head>
-    <body class="container d-flex justify-content-center">
+    <body class="container d-flex flex-column justify-content-center">
         <jsp:include page="index.jsp" />
-        <h1>Contact</h1>
         <h2>Samuel Nandi</h2>
         <ul class="">
             <li> <a href="https://github.com/Ssnnee"> Github </a> </li>
@@ -17,10 +16,11 @@
         <ul class="">
             <li> <a href="https://www.facebook.com/profile.php?id=100072207750861"> Facebook </a> </li>
         </ul>
-        <h2>Nous faire un don</h2>
-        <span>
-            <select id="don" onchange="don()">
-                <option value="1000">1000 FCFA</option>
+            <h2>Nous faire un don</h2>
+            <span>
+<span class="ml-2"> <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png" alt="PayPal Logo"> </span>
+                <select id="don" onchange="don()">
+                    <option value="1000">1000 FCFA</option>
                     <option value="2000">2000 FFCA</option>
                     <option value="3000">3000 FCA</option>
                 </select>
