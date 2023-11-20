@@ -13,3 +13,6 @@ mvn clean install
 ```
 mvn jetty:run
 ```
+
+## Fun fact
+Obviously, the boostrap is not me and I have no idea how to use it. :/)
